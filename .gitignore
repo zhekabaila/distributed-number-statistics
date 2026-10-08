@@ -1,0 +1,53 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Artefak Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test dan coverage
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Tipe checker dan linter
+.mypy_cache/
+.pytype/
+.ruff_cache/
+
+# Environment dan rahasia
+.env
+.env.*
+*.pem
+*.key
+
+# Editor dan sistem operasi
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Log dan file sementara
+*.log
+*.tmp
+*.bak
+
+# Catatan: results.csv sengaja TIDAK di-ignore karena dipakai sebagai bukti
+# hasil pengujian. Bila tidak ingin ikut terkirim, tambahkan baris berikut:
+# results.csv
